@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+
+# Include vectors.txt for automated test of crypto
+export DH_GOLANG_INSTALL_EXTRA := vectors.txt
+
+DEB_PACKAGE=debian/golang-github-flynn-noise-dev
+VECTORS_FILE=usr/share/gocode/src/github.com/flynn/noise/vectors.txt
+
+%:
+	dh $@ --builddirectory=_build --buildsystem=golang --with=golang
+
+# Don't include test vector generating binary in install
+# Also remove the test vectors themselves
+override_dh_auto_install:
+	dh_auto_install -- --no-binaries
+	rm ./$(DEB_PACKAGE)/$(VECTORS_FILE)

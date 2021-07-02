@@ -1,0 +1,28 @@
+Source: golang-github-flynn-noise
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Alex David <flu0r1ne@flu0r1ne.net>
+Section: devel
+Testsuite: autopkgtest-pkg-go
+Priority: optional
+Build-Depends: debhelper-compat (= 12),
+               dh-golang,
+               golang-any,
+               golang-golang-x-crypto-dev,
+               golang-gopkg-check.v1-dev
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-flynn-noise
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-flynn-noise.git
+Homepage: https://github.com/flynn/noise
+Rules-Requires-Root: no
+XS-Go-Import-Path: github.com/flynn/noise
+
+Package: golang-github-flynn-noise-dev
+Architecture: all
+Depends: golang-golang-x-crypto-dev,
+         golang-gopkg-check.v1-dev,
+         ${misc:Depends}
+Description: Go implementation of the Noise Protocol Framework (library)
+ Reference (https://pkg.go.dev/github.com/flynn/noise) This is a Go package that
+ implements the Noise Protocol Framework (https://noiseprotocol.org). See
+ the documentation (https://pkg.go.dev/github.com/flynn/noise) for usage
+ information.

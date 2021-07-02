@@ -1,0 +1,11 @@
+b2e8b967aa9e36f63969e0b55d23b32d  usr/share/doc/golang-github-flynn-noise-dev/changelog.Debian.gz
+ccfe981f20d11e3345dd9dc278a8e8a1  usr/share/doc/golang-github-flynn-noise-dev/copyright
+045766f0f366b454845b681db4b93d9f  usr/share/gocode/src/github.com/flynn/noise/cipher_suite.go
+dac982632f72508f13fd10289ad75a43  usr/share/gocode/src/github.com/flynn/noise/go.mod
+13caa9d87a6d25b04beaf9ed9f8989c8  usr/share/gocode/src/github.com/flynn/noise/go.sum
+2fe535ed8714d9d990d9a8ce1505bce1  usr/share/gocode/src/github.com/flynn/noise/hkdf.go
+250e425f0106058d456d8b272488a353  usr/share/gocode/src/github.com/flynn/noise/noise_test.go
+c76af9b4bb61b3bfae8d18365693404f  usr/share/gocode/src/github.com/flynn/noise/patterns.go
+d912295bcaccf13b33ef74c9aba6f489  usr/share/gocode/src/github.com/flynn/noise/state.go
+d2158d17ab4a29762a7e0302f6dbc2c8  usr/share/gocode/src/github.com/flynn/noise/vector_test.go
+d21674fc0a26a51bd0395ed1e172f352  usr/share/gocode/src/github.com/flynn/noise/vectorgen/vectorgen.go
